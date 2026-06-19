@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
         /* ตั้งค่าฟอนต์และพื้นหลังของหน้าเว็บ */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -71,10 +76,6 @@
             transform: scale(0.98);
         }
     </style>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 </head>
 <body>
     <div class="result-container">
@@ -90,11 +91,11 @@
             // $total = $num1 + $num2;
             // echo "คะแนนรวม : " . $total . "<br>";
 
-            $num1 = $_POST["num1"];
+            $kilometer = $_POST["kilometer"];
 
-            echo "การแปลงกิโลเมตรเป็นเมตร : " . $num1 . "<br>";
-            $total = $num1 * 1000;
-            echo $num1 . " กิโลเมตร = " . $total . " เมตร " ;
+            echo "การแปลงกิโลเมตรเป็นเมตร : " . $kilometer . "<br>";
+            $total = $kilometer * 1000;
+            echo $kilometer . "  กิโลเมตร = " . $total . " เมตร " ;
 
         ?> 
     </div>

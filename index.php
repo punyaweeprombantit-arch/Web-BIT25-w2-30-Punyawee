@@ -4,38 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
 
-    <h1>งานที่ 1 ปุณยวีร์ พรหมบัณฑิต BIT.2/5 No.30</h1>
-    
-    <!-- คะแนนเก็บช่องที่ 1 = 10 -->
-    <!-- คะแนนเก็บช่องที่ 2 = 8 -->
-    <!-- คะแนนรวม = คะแนนช่อง 1 + คะแนนช่อง 2 -->
-    <!-- output.  = inpunt1    + input2 -->
-    <!-- 18.      = 10         + 8 -->
-
-    <!-- ข้อมูลที่อยู่ในฟอร์ตจะส่งไปที่ไหน - ส่งแบบไหน -->
-    <!-- <form action="result.php" method="post">
-        <label for="">ชื่อนักศึกษา</label>
-        <input type="text" name="student_name"> <br>
-
-        <label for="">คะแนนช่องที่ 1</label>
-        <input type="number" name="num1"> <br>
-        <label for="">คะแนนช่องที่ 2</label>
-        <input type="number" name="num2"> <br>
-
-        <button>คำนวน</button>
-    </form> -->
-
-    <form action="result.php" method="post">
-        <label for="">การแปลงกิโลเมตรเป็นเมตร</label> <br>
-        <input type="number" name="num1"> <br>
-
-        <button>คำนวน</button>
-    </form> 
-
-    <style>
+        <style>
     /* ตั้งค่าฟอนต์และพื้นหลังของหน้าเว็บ */
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -119,6 +89,39 @@
     button:active {
         transform: scale(0.98);
     }
+
 </style>
+</head>
+<body>
+
+    <h1>งานที่ 1 ปุณยวีร์ พรหมบัณฑิต BIT.2/5 No.30</h1>
+    
+    <!-- คะแนนเก็บช่องที่ 1 = 10 -->
+    <!-- คะแนนเก็บช่องที่ 2 = 8 -->
+    <!-- คะแนนรวม = คะแนนช่อง 1 + คะแนนช่อง 2 -->
+    <!-- output.  = inpunt1    + input2 -->
+    <!-- 18.      = 10         + 8 -->
+
+    <!-- ข้อมูลที่อยู่ในฟอร์ตจะส่งไปที่ไหน - ส่งแบบไหน -->
+    <!-- <form action="result.php" method="post">
+        <label for="">ชื่อนักศึกษา</label>
+        <input type="text" name="student_name"> <br>
+
+        <label for="">คะแนนช่องที่ 1</label>
+        <input type="number" name="num1"> <br>
+        <label for="">คะแนนช่องที่ 2</label>
+        <input type="number" name="num2"> <br>
+
+        <button>คำนวน</button>
+    </form> -->
+
+    <form action="result.php" method="post">
+        <label for="">การแปลงกิโลเมตรเป็นเมตร</label> <br>
+        <input type="number" name="kilometer"> <br>
+
+        <button>คำนวน</button>
+    </form> 
+
+
 </body>
 </html>
